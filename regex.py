@@ -77,35 +77,35 @@ def validation():
 
      if choice == '1':
         email = input("Enter an email to validate: ")
-        print("Valid Email" if email_validation(email) else "Invalid Email")
+        print("Valid Email" if email_validation(email) else "Invalid Email,please try again")
 
      elif choice == '2':
       url = input("Enter a URL to validate: ")
-      print("Valid URL" if url_validation(url) else "Invalid URL")
+      print("Valid URL" if url_validation(url) else "Invalid URL,please try again")
 
      elif choice == '3':
         phone_number = input("Enter a phone number to validate: ")
-        print("Valid Phone Number" if Phone_number_validation(phone_number) else "Invalid Phone Number")
+        print("Valid Phone Number" if Phone_number_validation(phone_number) else "Invalid Phone Number,please try again")
 
      elif choice == '4':
         credit_card = input("Enter a credit card number to validate: ")
-        print("Valid Credit Card" if credit_card_validation(credit_card) else "Invalid Credit Card")
+        print("Valid Credit Card" if credit_card_validation(credit_card) else "Invalid Credit Card, please try again")
 
      elif choice == '5':
         time = input("Enter a time to validate: ")
-        print("Valid Time" if time_validation(time) else "Invalid Time")
+        print("Valid Time" if time_validation(time) else "Invalid Time, please try again")
 
      elif choice == '6':
         html_tag = input("Enter an HTML tag to validate: ")
-        print("Valid HTML Tag" if html_tag_validation(html_tag) else "Invalid HTML Tag")
+        print("Valid HTML Tag" if html_tag_validation(html_tag) else "Invalid HTML Tag,please try again")
 
      elif choice == '7':
         tag = input("Enter a hashtag to validate: ")
-        print("Valid Hashtag" if hashtag_validation(tag) else "Invalid Hashtag")
+        print("Valid Hashtag" if hashtag_validation(tag) else "Invalid Hashtag, please try again")
 
      elif choice == '8':
         currency = input("Enter a currency amount to validate: ")
-        print("Valid Currency" if currency_validation(currency) else "Invalid Currency")
+        print("Valid Currency" if currency_validation(currency) else "Invalid Currency, please try again")
 
      else:
         print("Invalid choice. Please select a number between 1 and 8.")
